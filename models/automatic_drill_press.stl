@@ -1,0 +1,345 @@
+solid automatic_drill_press
+  // Base cube (-50,-30,0) size 100x60x10
+  facet normal 0 0 -1
+    outer loop
+      vertex -50 -30 0
+      vertex 50 -30 0
+      vertex 50 30 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -50 -30 0
+      vertex 50 30 0
+      vertex -50 30 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -50 -30 10
+      vertex 50 30 10
+      vertex 50 -30 10
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -50 -30 10
+      vertex -50 30 10
+      vertex 50 30 10
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -50 -30 0
+      vertex 50 -30 0
+      vertex 50 -30 10
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -50 -30 0
+      vertex 50 -30 10
+      vertex -50 -30 10
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 50 -30 0
+      vertex 50 30 0
+      vertex 50 30 10
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 50 -30 0
+      vertex 50 30 10
+      vertex 50 -30 10
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 50 30 0
+      vertex -50 30 0
+      vertex -50 30 10
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 50 30 0
+      vertex -50 30 10
+      vertex 50 30 10
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -50 30 0
+      vertex -50 -30 0
+      vertex -50 -30 10
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -50 30 0
+      vertex -50 -30 10
+      vertex -50 30 10
+    endloop
+  endfacet
+
+  // Column cube (-10,-10,10) size 20x20x70
+  facet normal 0 0 -1
+    outer loop
+      vertex -10 -10 10
+      vertex 10 -10 10
+      vertex 10 10 10
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -10 -10 10
+      vertex 10 10 10
+      vertex -10 10 10
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -10 -10 80
+      vertex 10 10 80
+      vertex 10 -10 80
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -10 -10 80
+      vertex -10 10 80
+      vertex 10 10 80
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -10 -10 10
+      vertex 10 -10 10
+      vertex 10 -10 80
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -10 -10 10
+      vertex 10 -10 80
+      vertex -10 -10 80
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 -10 10
+      vertex 10 10 10
+      vertex 10 10 80
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 -10 10
+      vertex 10 10 80
+      vertex 10 -10 80
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 10 10 10
+      vertex -10 10 10
+      vertex -10 10 80
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 10 10 10
+      vertex -10 10 80
+      vertex 10 10 80
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -10 10 10
+      vertex -10 -10 10
+      vertex -10 -10 80
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -10 10 10
+      vertex -10 -10 80
+      vertex -10 10 80
+    endloop
+  endfacet
+
+  // Head cube (-30,-20,80) size 60x40x20
+  facet normal 0 0 -1
+    outer loop
+      vertex -30 -20 80
+      vertex 30 -20 80
+      vertex 30 20 80
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -30 -20 80
+      vertex 30 20 80
+      vertex -30 20 80
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -30 -20 100
+      vertex 30 20 100
+      vertex 30 -20 100
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -30 -20 100
+      vertex -30 20 100
+      vertex 30 20 100
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -30 -20 80
+      vertex 30 -20 80
+      vertex 30 -20 100
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -30 -20 80
+      vertex 30 -20 100
+      vertex -30 -20 100
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 30 -20 80
+      vertex 30 20 80
+      vertex 30 20 100
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 30 -20 80
+      vertex 30 20 100
+      vertex 30 -20 100
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 30 20 80
+      vertex -30 20 80
+      vertex -30 20 100
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 30 20 80
+      vertex -30 20 100
+      vertex 30 20 100
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -30 20 80
+      vertex -30 -20 80
+      vertex -30 -20 100
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -30 20 80
+      vertex -30 -20 100
+      vertex -30 20 100
+    endloop
+  endfacet
+
+  // Spindle cube (-2,-2,60) size 4x4x20
+  facet normal 0 0 -1
+    outer loop
+      vertex -2 -2 60
+      vertex 2 -2 60
+      vertex 2 2 60
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -2 -2 60
+      vertex 2 2 60
+      vertex -2 2 60
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -2 -2 80
+      vertex 2 2 80
+      vertex 2 -2 80
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -2 -2 80
+      vertex -2 2 80
+      vertex 2 2 80
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -2 -2 60
+      vertex 2 -2 60
+      vertex 2 -2 80
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -2 -2 60
+      vertex 2 -2 80
+      vertex -2 -2 80
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 2 -2 60
+      vertex 2 2 60
+      vertex 2 2 80
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 2 -2 60
+      vertex 2 2 80
+      vertex 2 -2 80
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 2 2 60
+      vertex -2 2 60
+      vertex -2 2 80
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 2 2 60
+      vertex -2 2 80
+      vertex 2 2 80
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -2 2 60
+      vertex -2 -2 60
+      vertex -2 -2 80
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -2 2 60
+      vertex -2 -2 80
+      vertex -2 2 80
+    endloop
+  endfacet
+endsolid automatic_drill_press
